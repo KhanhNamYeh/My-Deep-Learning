@@ -22,12 +22,15 @@ The repository is intended to be **open, educational, and widely accessible** fo
 The project consists of **three main parts**:
 
 ### 1️ Build Basic Models from Scratch
-- Implement core neural network components manually
-- Focus on:
-  - Forward propagation
-  - Backward propagation (gradient computation)
-  - Loss functions
+- Implement core neural network components manually:
+  - Layers (conv, dense, activations, ...)
+  - Loss function
+  - Backprogation (gradient computation)
   - Optimization algorithms
+- Focus on simple deep learning architecture, core initial models
+  - FeedForward Neural Network
+  - Convolution Neural Network (LeNet)
+  - Recurrent Neural Network (...)
 - No deep learning frameworks (or minimal usage), just numpy
 
 This part helps build **strong intuition** about how neural networks actually work internally.
