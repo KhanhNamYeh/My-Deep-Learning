@@ -1,0 +1,59 @@
+############################
+# === Traffic Sign Detection ===
+############################
+
+# Dataset (zip & extracted)
+demo-application/traffic-sign-detection/datasets.zip
+demo-application/traffic-sign-detection/dataset/
+demo-application/traffic-sign-detection/data/
+demo-application/traffic-sign-detection/datasets/
+
+# YOLO / Detection outputs
+demo-application/traffic-sign-detection/runs/
+runs/
+
+# Videos
+demo-application/traffic-sign-detection/video/
+*.mp4
+*.avi
+*.mov
+
+############################
+# === Deep Learning common ===
+############################
+
+# Model checkpoints
+*.pt
+*.pth
+*.h5
+*.ckpt
+*.onnx
+
+# Large data files
+*.zip
+*.tar
+*.tar.gz
+*.csv
+
+############################
+# === Python ===
+############################
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env
+.env.*
+
+############################
+# === OS / Editor ===
+############################
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
