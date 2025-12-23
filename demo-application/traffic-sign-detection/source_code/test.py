@@ -1,15 +1,11 @@
 from ultralytics import YOLO
 import cv2
-from auto_label import VideoProcessor
-from cv2 import VideoCapture, VideoWriter
-import os
+from utils import VideoProcessor
 
 # Đường dẫn weights bạn đã train
 WEIGHTS = "runs/detect/traffic_detect_run3/weights/best.pt"  # đổi nếu khác
 
 model = YOLO(WEIGHTS)
-
-
 
 def draw_box(frame, box, cls_name: str, score: float):
     x, y, w, h = box
